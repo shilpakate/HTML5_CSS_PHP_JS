@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title> form elements</title></head>
+<body>
+
+
+
+<form >
+   <h1>Some form elements</h1>
+<br>
+	<label for="month">Select Month:</label>
+	<input type="month" id="month" name="month">
+	<br>
+		<label for="vol">Volume (between 0 and 50):</label>
+		<input type="range" id="vol" name="vol" min="0" max="50">
+		<input type="submit">
+	<br>
+	    <label for="meeting-time">Choose a time for your appointment:</label>
+		<input type="datetime-local" id="meeting-time"name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00">
+	<br>
+	<label for="appt">Select a time:</label>
+    <input type="time" id="appt" name="appt">
+	<br>
+	<label for="week">Choose a week in May or June:</label>
+
+     <input type="week" name="week" id="camp-week" min="2018-W18" max="2018-W26" required> <br>
+	<label for="search">Enter your text for searching :</label>
+	<input type="search" id="search" name="search">  <input type="submit"> <br>  
+	<label for="upload">Select file for upload</label>
+	<input type="file" id="upload" name="upload>
+	<input type="file" id="file" name="file"><br>
+    <label for="phone">Enter your phone number:</label>
+
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+<small>Format: 123-456-7890</small>
+
+  <br>
