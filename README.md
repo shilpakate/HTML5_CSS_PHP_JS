@@ -1,2 +1,2 @@
 # SBPCSC
-I am covering some basics concepts of HTML5 ,Javascript and PHP  
+contains  basics programs  of HTML5 ,Javascript and PHP  
