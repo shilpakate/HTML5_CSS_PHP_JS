@@ -1,0 +1,23 @@
+<!Doctype html>
+<HTML>
+   <Head><title>Factorial of given number</title>
+  <script type="text/javascript">
+      function fact() 
+        {
+          var i=1,fact=1;
+            var num=parseInt(f1.t1.value); //To accept value
+            for(i=1;i<num;i++)
+               {
+               fact=fact*i;                    
+               }
+           document.write("factorial of "+num+"="+fact);
+         }
+ </script>
+</Head>
+ <body>
+      <form name="f1">
+           Enter number:<input type="text" name="t1">
+           <input type="button" value="find factorial" onClick="fact()">
+       </form>
+ </body>
+</HTML>

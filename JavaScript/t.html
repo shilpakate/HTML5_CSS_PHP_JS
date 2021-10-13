@@ -1,0 +1,24 @@
+/* Write a Javascript to calculate the average of three numbers.*/
+<html>
+<head><title>the average of three numbers</title>
+<script type="text/javascript">
+function avg()
+{
+ var n1,n2,n3,avg;
+n1=parseInt(f1.t1.value);
+n2=parseInt(f1.t2.value);
+n3=parseInt(f1.t3.value);
+avg=(n1+n2+n3)/3;
+document.write("Average of 3 numbers is="+avg);
+}
+</script>
+</head>
+<body>
+	<form name="f1">
+         Enter first number:<input type="text" name="t1"><br>
+	Enter Second number:<input type="text" name="t2"><br>
+	Enter third number:<input type="text" name="t3"><br>
+        <input type="button" value="average" onClick="avg()">
+	</form>
+</body>
+</html>

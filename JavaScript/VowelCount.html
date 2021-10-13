@@ -1,0 +1,29 @@
+ <html>
+<head>
+<title>find number of vowels in a string in JavaScript</title>
+<script type="text/javascript">
+function Vowels() 
+{
+var str = document.getElementById("t1").value;
+var count = 0, total_vowels="";
+for (var i = 0; i < str.length; i++) 
+{
+	// findVowels
+	if(str.charAt(i)=="a"||str.charAt(i)=="e"||str.charAt(i)=="i"||str.charAt(i)=="o"||str.charAt(i)=="u"||str.charAt(i)=="A"||str.charAt(i)=="E"||str.charAt(i)=="I"||str.charAt(i)=="O"||str.charAt(i)=="U")
+	{
+	count++;
+	} 
+}
+
+alert("VOWEL count is="+ count);
+}
+</script>
+</head>
+<body>
+<form>
+<h1>Get Vowels from String</h1>
+Enter Text :<input type="text" id="t1" />
+<input type="button" value="Get Vowels Count" onclick="Vowels()" />
+</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>  <title>  Window Opener and Closer </title>
+<script type="text/javascript"> 
+function makeNewWindow()
+{
+var newwin=window.open(); 
+ newwin.document.write("<p>This is 'New Window'</p>");
+   newwin.document.body.style.backgroundColor = "skyblue";
+}
+</script></head>
+<body>
+<form>
+<input type="button" value="Create New Window" onClick="makeNewWindow()">
+</form>    </body>
+</html>

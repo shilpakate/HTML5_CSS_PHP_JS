@@ -1,0 +1,24 @@
+// To accept string and display it into lowercase and uppercase by onClick event
+<html>
+<head><title> To accept string and display it into lowercase and uppercase by onClick event</title>
+<script type ="text/Javascript">
+     var  str,str1,str2;
+    function  convert()
+       {
+         var str=f1.t1.value;
+          str1=str.toLowerCase();
+          str2=str.toUpperCase();
+       f1.t2.value=str1;
+       f1.t3.value=str2
+        }
+</script>
+</head>
+<body>
+<h1>To accept string and display it into lowercase and uppercase by onClick event </h1>
+  <form name="f1">
+   Enter string:<input type="text" name="t1"><br>
+   Uppercase format of string:<input type="text" name="t2"><br>
+   Lowercase format of string:<input type="text" name="t3"><br>
+  <input type="button" value="click here" onClick="convert()">
+  </form>
+</body>

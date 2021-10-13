@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript">
+
+function c1()
+{
+document.bgColor="red";
+window.setTimeout("c2()",1000);
+}
+function c2()
+{
+document.bgColor="yellow";
+window.setTimeout("c3()",1000);
+}
+function c3()
+{
+document.bgColor="green";
+window.setTimeout("c4()",1000);
+}
+function c4()
+{
+document.bgColor="Orange";
+window.setTimeout("c5()",1000);
+}
+function c5()
+{
+document.bgColor="Blue";
+window.setTimeout("c6()",1000);
+}
+function c6()
+{
+document.bgColor="black";
+window.setTimeout("c7()",1000);
+}
+function c7()
+{
+document.bgColor="white";
+window.setTimeout("c1()",1000);
+}
+ function msg()
+ {
+    alert("Page unload")
+ }
+
+</script>
+
+</head>
+<body onload="c1()" onunload="msg()">
+
+</body>
+</html>

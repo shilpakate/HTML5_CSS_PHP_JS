@@ -1,0 +1,25 @@
+// To check the string length is 4 or greater using onClick event
+<html>
+<head><title> To check the string length is 4 or greater using onClick event</title>
+<script language ="Javascript">
+     var  str,len;
+    function Calculate()
+       {
+         var str=f1.t1.value;
+         len=str.length;
+          if(len>=4)
+	alert(str+" has length is 4 or more than 4");
+         else
+                  alert(str+" length is less  than 4");
+        }
+</script>
+</head>
+<body>
+<h1>To check the string length is 4 or greater using onClick event</h1>
+  <form name="f1">
+   Enter string:<input type="text" name="t1">
+   <br>
+  <input type="button" value="click here" onClick="Calculate()">
+  </form>
+</body>
+</html>

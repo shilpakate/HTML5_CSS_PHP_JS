@@ -1,0 +1,32 @@
+/*1.	DISPLAY Addition, MULTIPLICATION, division AND REMAINDER of two numbers, which were ACCEPTED from user.*/
+<!doctype html>
+<html>
+    <head><title>Calculator using Javascript</title>
+      <script type="text/javascript">             
+              var result=0;            
+             function calc()
+              {              
+                var n1=parseInt(f1.t1.value);
+                var n2=parseInt(f1.t2.value); 
+                   document.write("<br>Accepted Numbers are n1= "+n1+" & n2="+n2);
+                result=n1+n2;
+                document.write("<br>Addition is="+result);
+                 result=n1*n2;
+                document.write("<br>Multiplication is="+result); 
+                 result=n1/n2;
+                document.write("<br>division ans is="+result);
+                  result=n1%n2;
+                document.write("<br>Reminder is="+result);     
+              }
+      </script>
+</head>
+  <body>
+ <form name="f1">
+        Enter first Number:<input type="text" name="t1"><br><br>
+         Enter Second Number:<input type="text" name="t2"><br><br>
+         <input type="button" value="Calculator" onClick="calc()">
+ 
+</form>
+  </body>
+    
+</html>

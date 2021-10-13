@@ -1,0 +1,26 @@
+/* Write a Javascript to print perimeter of trapezium.*/
+<html>
+<head><title>print perimeter of trapezium</title>
+<script type="text/javascript">
+function perimeter()
+{
+ var n1,n2,n3,n4,p;
+n1=parseInt(f1.t1.value);
+n2=parseInt(f1.t2.value);
+n3=parseInt(f1.t3.value);
+n4=parseInt(f1.t4.value);
+p=(n1+n2+n3+n4);
+document.write("perimeter of trapezium="+ p);
+}
+</script>
+</head>
+<body>
+	<form name="f1">
+         Enter value of first side :<input type="text" name="t1"><br>
+	Enter value of Second side:<input type="text" name="t2"><br>
+	Enter value of third  side:<input type="text" name="t3"><br>
+	Enter value of fourth side:<input type="text" name="t4"><br>
+        <input type="button" value="Perimeter" onClick="perimeter()">
+	</form>
+</body>
+</html>
